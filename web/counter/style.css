@@ -1,0 +1,23 @@
+.value{
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+button{
+    width: 50px;
+    border-radius: 10px;
+    border: transparent;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+.plus{
+    background-color: green;
+}
+
+.moins{
+    background-color: red;
+}
