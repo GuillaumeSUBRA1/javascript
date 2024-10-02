@@ -1,0 +1,36 @@
+button{
+    width: 150px;
+    border-radius: 50px;
+    border: transparent;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.add {
+    background-color: green;
+}
+
+.remove {
+    background-color: red;
+}
+
+.list {
+    padding: 5px;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px grey solid;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    width: 300px;
+}
