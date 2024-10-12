@@ -1,23 +1,55 @@
-.value{
-    border-radius: 10px;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #091427;
+}
+
+.value {
+    border-radius: 25px;
     border: 2px solid gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-bottom: 10px;
-    width: 100px;
+    color: white;
+    font-size: 1.5rem;
+    width: 120px;
     text-align: center;
 }
 
 button{
-    width: 50px;
-    border-radius: 10px;
+    width: 60px;
     border: transparent;
-    padding: 10px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: white;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
-.plus{
-    background-color: green;
-}
+.button {
+    display: flex;
+    flex-direction: row;
 
-.moins{
-    background-color: red;
+    .plus {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-color:rgb(0, 180, 0);
+        
+        &:hover{
+            background-color: rgb(0, 220, 0);
+        }
+    }
+
+    .moins {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        background-color: rgb(180, 0, 0);
+
+        &:hover{
+            background-color: rgb(220, 0, 0);
+        }
+    }
 }
