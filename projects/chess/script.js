@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const recordMove = (move, count) => {
         const fMove = count % 2 === 1 ? `${Math.ceil(count / 2)}. ${move}` : `${move} -`;
         moveHistory.textContent += fMove + ' ';
-        moveHistory.scrollTop = moveHistory.scrollHeight; 
+        moveHistory.scrollTop = moveHistory.scrollHeight;
     }
 
     const onDragStart = (source, piece) => {
